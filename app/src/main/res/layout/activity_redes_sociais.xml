@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFB252"
     tools:context=".RedesSociais">
 
     <ScrollView
@@ -15,6 +16,30 @@
             android:id="@+id/llRedesSociais"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSelecionarRedeSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/txtSelecionarRedeSocial"
+                android:textColor="#1565C0"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imgRedes"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:contentDescription="@string/imgRedes"
+                app:srcCompat="@drawable/redesh6_seme" />
+
+            <Button
+                android:id="@+id/btnProximo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnProximo" />
+
+        </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
