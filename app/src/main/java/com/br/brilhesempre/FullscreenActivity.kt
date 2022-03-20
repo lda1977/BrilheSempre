@@ -2,12 +2,14 @@ package com.br.brilhesempre
 
 import android.support.v7.app.AppCompatActivity
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.view.MotionEvent
 import android.view.View
 import android.view.WindowInsets
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.br.brilhesempre.databinding.ActivityFullscreenBinding
@@ -83,6 +85,16 @@ class FullscreenActivity : AppCompatActivity() {
         fullscreenContent.setOnClickListener { toggle() }
 
         fullscreenContentControls = binding.fullscreenContentControls
+
+        //Button Login
+        ///////////////////
+        val ENTRADA = findViewById<Button>(R.id.dummy_button) as Button
+
+        ENTRADA.setOnClickListener {
+            val fscintentredessociais = Intent(this, RedesSociais::class.java).apply {
+            }
+            startActivity(fscintentredessociais)
+        }
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away

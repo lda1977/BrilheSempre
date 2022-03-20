@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Brilhe\nSempre</string>
-    <string name="dummy_button">Entrar</string>
+    <string name="dummy_button">...:: Entrar ::...</string>
     <string name="dummy_content">Locação de Trajés para\nFESTA</string>
     <string name="imgLogo">Logo Marca Brilhe Sempre</string>
 </resources>

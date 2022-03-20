@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrilheSempre">
         <activity
+            android:name=".RedesSociais"
+            android:exported="false" />
+        <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
