@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Brilhe\nSempre</string>
     <string name="dummy_button">...:: Entrar ::...</string>
-    <string name="dummy_content">Locação de Trajés para\nFESTA</string>
+    <string name="dummy_content">Locação de Trajes para\nFESTA</string>
     <string name="imgLogo">Logo Marca Brilhe Sempre</string>
     <string name="imgRedes">Redes Sociais</string>
     <string name="btnProximo">....::: Proxímo ::....</string>
-    <string name="txtSelecionarRedeSocial">Selecionar uma Rede Social!</string>
+    <string name="txtSelecionarRedeSocial">...:: Encontre nossa Rede Social!!!</string>
 </resources>
