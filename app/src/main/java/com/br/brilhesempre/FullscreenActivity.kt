@@ -72,20 +72,14 @@ class FullscreenActivity : AppCompatActivity() {
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityFullscreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
         isFullscreen = true
-
         // Set up the user interaction to manually show or hide the system UI.
         fullscreenContent = binding.fullscreenContent
         fullscreenContent.setOnClickListener { toggle() }
-
         fullscreenContentControls = binding.fullscreenContentControls
-
         //Button Login
         ///////////////////
         val ENTRADA = findViewById<Button>(R.id.dummy_button) as Button
@@ -95,7 +89,6 @@ class FullscreenActivity : AppCompatActivity() {
             }
             startActivity(fscintentredessociais)
         }
-
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
